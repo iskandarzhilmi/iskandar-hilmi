@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { ReadingProgress } from "./components/ReadingProgress";
 import { Reveal } from "./components/Reveal";
 
@@ -455,7 +456,26 @@ export default function Home() {
                 Seven hundred voters came, and they stayed an average of 5.6
                 minutes each before polling day.
               </p>
-              <p className="max-w-[58ch] mt-5">
+              <figure className="mt-8">
+                <a
+                  href="https://wakilku.com"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="block border border-ink/80 bg-paper"
+                >
+                  <Image
+                    src="/wakilku.png"
+                    alt="WakilKu homepage: an interactive map of Johor's 56 state seats above a candidate search bar"
+                    width={2400}
+                    height={1478}
+                    className="w-full"
+                  />
+                </a>
+                <figcaption className="mono text-[10.5px] tracking-[0.08em] uppercase text-ink-faint mt-3">
+                  wakilku.com, the week before polling day
+                </figcaption>
+              </figure>
+              <p className="max-w-[58ch] mt-8">
                 And in early 2026 I stood in front of a hundred people at the
                 first Flutter Kuala Lumpur meetup and gave a talk titled{" "}
                 <span className="italic">
