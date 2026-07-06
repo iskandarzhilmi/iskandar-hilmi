@@ -76,7 +76,7 @@ export default function Home() {
               <div>
                 <dt className="eyebrow">MRR</dt>
                 <dd className="figure-num text-[44px] mt-1">
-                  <span className="text-[26px] align-top">$</span>767
+                  <span className="text-[26px] align-top">$</span>700+
                 </dd>
                 <p className="mono text-[10px] text-ink-faint mt-1">bootstrapped</p>
               </div>
@@ -394,7 +394,7 @@ export default function Home() {
             </div>
             <dl className="col-span-12 lg:col-span-9 mt-6 lg:mt-0">
               <LedgerRow label="Total installs, all stores" value="25,000+" sub="iOS & Android" />
-              <LedgerRow label="Monthly recurring revenue" value="$767" sub="gross, Jul 2026" highlight />
+              <LedgerRow label="Monthly recurring revenue" value="$700+" sub="gross, Jul 2026" highlight />
               <LedgerRow label="All‑time take‑home" value="$4,396" sub="net of stores & RevenueCat" />
               <LedgerRow label="Active paid subscriptions" value="170" sub="92 monthly · 49 annual · 29 legacy weekly" />
               <LedgerRow label="Free → paid conversion" value="6.7%" sub="paywall placement, regional pricing" />
